@@ -5,7 +5,7 @@
   "main": "src/server.js",
   "scripts": {
     "server": "node src/server.ts",
-	"start":"tsc && node dist/src/server.js",
+    "start": "node server.js",
     "dev": "nodemon"
   },
   "author": "Anatoli Miad",
@@ -33,6 +33,7 @@
     "passport-local": "^1.0.0",
     "request": "^2.88.2",
     "sqlite3": "^5.1.6",
+    "ts-node": "^10.9.1",
     "web3": "^1.6.0"
   },
   "devDependencies": {
